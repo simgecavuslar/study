@@ -1,0 +1,22 @@
+İnsertion Sort & Selection Sort Project
+
+[22,27,16,2,18,6] -> Insertion Sort
+[2,27,16,22,18,6] 
+[2,6,16,22,18,27] 
+[2,6,16,22,18,27] 
+[2,6,16,18,22,27] 
+
+Big O Notation 
+If we have n values. Big O Notation should be O(n^2) due to number of calculations (n*(n+1))/2. We have 6 values. So Big O Notation is O(6^2) 
+
+Time Complexity
+18 is in the middle of the sequences.So 18 is Average Case.
+
+
+
+[7,3,5,8,2,9,4,15,6] write the first 4 steps for Selection Sort
+[2,3,5,8,7,9,4,15,6] -> First Step (changing 2 and 7)
+[2,3,5,8,7,9,4,15,6] -> Second Step (3 in the right place so the order doesn't change)
+[2,3,4,8,7,9,5,15,6] -> Third Step (changing 4 and 5)
+[2,3,4,5,7,9,8,15,6] -> Fourth Step (changing 8 and 5)
+
